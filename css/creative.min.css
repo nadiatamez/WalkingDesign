@@ -228,12 +228,35 @@ header .header-content .header-content-inner p {
     color: #fff
 }
 
-.headerTwo {
+.headerTwo { /*walks page*/
     min-height: 47em;
     width: 100%;
     margin-top: 20em; 
     text-align: center;
 }
+
+.bannerPastWalks {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-color: #F05F40;
+    color: #fff
+}
+
+.headerThree { /*pastWalks page*/
+    min-height: 25em;
+    width: 100%;
+    margin-top: 20em; 
+    text-align: center;
+}
+
+.pastTableHeading {
+    text-align: center;
+}
+
+
 
 .section-heading {
     margin-top: 0
