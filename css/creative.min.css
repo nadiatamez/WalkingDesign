@@ -256,6 +256,23 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
+.bannerNewWalks {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-color: #F05F40;
+    color: #fff
+}
+
+.headerFour { /*newWalks page*/
+    min-height: 25em;
+    width: 100%;
+    margin-top: 20em; 
+    text-align: center;
+}
+
 
 
 .section-heading {
