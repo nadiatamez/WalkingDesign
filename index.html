@@ -43,20 +43,30 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
+
                 <a class="navbar-brand page-scroll" href="#page-top">Start Side-Walkin'!</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+<!--
                     <li>
                         <a class="page-scroll" href="#home">Home</a>
                     </li>
+-->
                     <li>
+
                         <a class="page-scroll" href="#services">Services</a> <!-- What we can do -->
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a> <!-- Why we decided to do it -->
+
+                        <a class="page-scroll" href="#services">How It Works</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#walk">Get Started</a>
+
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a> <!-- Ask for feedback -->
@@ -77,7 +87,7 @@
                 <h1 id="homeHeading">Hey, I'm Walkin' Here!</h1>
                 <hr>
                 <p style="font-size:24px">An app to help Austinites get around town safely on our sidewalks.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
@@ -160,9 +170,56 @@
                         </div>
                      </div>
                 </div>
+
             </div> <!-- row -->
         </div> <!-- container -->
     </aside>  
+
+    <section id="walk" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Map your route!</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Starting location" id="start" required data-validation-required-message="Please enter your location.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Ending location" id="end" required data-validation-required-message="Please enter your destination.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+<!--
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+-->
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <a href="" class="btn btn-default btn-xl sr-button">Go!</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact">
         <div class="container">
@@ -170,6 +227,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
+
                     <p>Got any feedback for us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
@@ -178,7 +236,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@walkingatx.com</a></p>
                 </div>
             </div>
         </div>
