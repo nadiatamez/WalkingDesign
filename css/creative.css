@@ -49,6 +49,7 @@ p {
   background-color: #222222;
   color: white;
 }
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -149,7 +150,7 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  max-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
