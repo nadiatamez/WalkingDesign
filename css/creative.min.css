@@ -235,6 +235,10 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
+.headerTwo h1 {
+    font-size: 60px;
+}
+
 .bannerPastWalks {
     -webkit-background-size: cover;
     -moz-background-size: cover;
