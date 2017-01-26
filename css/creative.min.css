@@ -161,7 +161,7 @@ aside {
         color: #F05F40
     }
 }
-header {
+#indexHeader {
     min-height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -171,30 +171,30 @@ header {
     background-image: url(../img/city.jpg);
     color: #fff
 }
-header .header-content {
+#indexHeader .header-content {
     padding: 100px 15px
 }
-header .header-content .header-content-inner h1 {
+#indexHeader .header-content .header-content-inner h1 {
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 30px
 }
-header .header-content .header-content-inner hr {
+#indexHeader .header-content .header-content-inner hr {
     margin: 30px auto
 }
-header .header-content .header-content-inner p {
+#indexHeader .header-content .header-content-inner p {
     font-weight: 300;
     color: rgba(255, 255, 255, .7);
     font-size: 16px;
     margin-bottom: 50px
 }
 @media (min-width: 768px) {
-    header {
+    #indexHeader {
         min-height: 100%
     }
-    header .header-content {
+    #indexHeader .header-content {
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -202,15 +202,15 @@ header .header-content .header-content-inner p {
         transform: translateY(-50%);
         padding: 0 50px
     }
-    header .header-content .header-content-inner {
+    #indexHeader .header-content .header-content-inner {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto
     }
-    header .header-content .header-content-inner h1 {
+    #indexHeader .header-content .header-content-inner h1 {
         font-size: 50px
     }
-    header .header-content .header-content-inner p {
+    #indexHeader .header-content .header-content-inner p {
         font-size: 18px;
         max-width: 80%;
         margin-left: auto;
@@ -218,7 +218,7 @@ header .header-content .header-content-inner p {
     }
 }
 
-.bannerWalks {
+#walksHeader {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -227,8 +227,8 @@ header .header-content .header-content-inner p {
     background-image: url(../img/manhole-covers.jpg);
     color: #fff
 }
-
-.headerTwo { /*walks page*/
+/*
+.headerTwo { /*walks page
     min-height: 47em;
     width: 100%;
     margin-top: 20em; 
@@ -249,7 +249,7 @@ header .header-content .header-content-inner p {
     color: #fff
 }
 
-.headerThree { /*pastWalks page*/
+.headerThree { /*pastWalks page
     min-height: 25em;
     width: 100%;
     margin-top: 20em; 
@@ -270,13 +270,13 @@ header .header-content .header-content-inner p {
     color: #fff
 }
 
-.headerFour { /*newWalks page*/
+.headerFour { /*newWalks page
     min-height: 25em;
     width: 100%;
     margin-top: 20em; 
     text-align: center;
 }
-
+*/
 
 
 .section-heading {
