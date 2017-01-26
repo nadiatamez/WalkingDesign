@@ -227,57 +227,6 @@ aside {
     background-image: url(../img/manhole-covers.jpg);
     color: #fff
 }
-/*
-.headerTwo { /*walks page
-    min-height: 47em;
-    width: 100%;
-    margin-top: 20em; 
-    text-align: center;
-}
-
-.headerTwo h1 {
-    font-size: 60px;
-}
-
-.bannerPastWalks {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-color: #F05F40;
-    color: #fff
-}
-
-.headerThree { /*pastWalks page
-    min-height: 25em;
-    width: 100%;
-    margin-top: 20em; 
-    text-align: center;
-}
-
-.pastTableHeading {
-    text-align: center;
-}
-
-.bannerNewWalks {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-color: #F05F40;
-    color: #fff
-}
-
-.headerFour { /*newWalks page
-    min-height: 25em;
-    width: 100%;
-    margin-top: 20em; 
-    text-align: center;
-}
-*/
-
 
 .section-heading {
     margin-top: 0
@@ -291,9 +240,19 @@ aside {
         margin: 20px auto 0
     }
 }
-.service-box p {
-    margin-bottom: 0
+.service-box h3, p {
+    font-family: 'Raleway', sans-serif;
 }
+
+.captionAbout h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact h2 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
 .portfolio-box {
     position: relative;
     display: block;
@@ -379,6 +338,7 @@ aside {
     color: #222;
     background-color: #f2f2f2;
     border-color: #ededed
+
 }
 .btn-default.disabled,
 .btn-default.disabled.active,
@@ -453,6 +413,8 @@ fieldset[disabled] .btn-primary:hover {
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase
+    font-family: 'Raleway', sans-serif;
+
 }
 .btn-xl {
     padding: 15px 30px
